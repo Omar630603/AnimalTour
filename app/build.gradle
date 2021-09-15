@@ -14,6 +14,7 @@ android {
         testInstrumentationRunnerArguments clearPackageData: 'true'
         buildConfigField "int", "MIN_SDK_VERSION", "$minSdkVersion.apiLevel"
         buildConfigField "int", "TARGET_SDK_VERSION", "$targetSdkVersion.apiLevel"
+
     }
     buildTypes {
         release {
